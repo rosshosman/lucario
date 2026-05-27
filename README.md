@@ -11,6 +11,7 @@
   * [Vim](#vim)
   * [Visual Studio Code](#visual-studio-code)
   * [Xcode](#xcode)
+  * [Zed](#zed)
 * Terminal Emulators
   * [Rio terminal](#rio-terminal)
   * [GNOME Terminal](#gnome-terminal)
@@ -131,6 +132,21 @@ OS X Hint: `vim /usr/share/vim/vimrc`
 ```sh
 $ mv Lucario.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
 ```
+
+### [Zed](https://zed.dev)
+
+The theme lives in [`zed/`](zed) as a Zed theme extension.
+
+**From the extension registry** (once published): open the command palette
+(`cmd-shift-p` / `ctrl-shift-p`), run **`zed: extensions`**, search for
+**Lucario**, and install it. Then select it via **`theme selector: toggle`**
+(`cmd-k cmd-t`).
+
+**As a local dev extension:**
+
+1. Open the command palette and run **`zed: install dev extension`**.
+2. Select the **`zed/`** folder of this repository.
+3. Run **`theme selector: toggle`** (`cmd-k cmd-t`) and pick **Lucario**.
 
 ## Terminal Emulators
 
